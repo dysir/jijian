@@ -3,3 +3,9 @@
 支持markdown编辑
 浏览器缓存
 
+- 配置application/config/database.php 数据库配置
+- 导入数据库文件 public/jijian.sql
+- 后台地址 test.com/admim.php
+- 前台地址 test.com/index.php
+
+不要隐藏index.php
