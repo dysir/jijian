@@ -1,0 +1,118 @@
+@import "base.less";
+body{
+	background:@base_background;
+}
+a{
+	text-decoration:none !important;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+	background:@base_background;
+}
+//首页样式 开始
+.note_container{
+	background:white;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+.note_list{
+	margin-top: 10px !important;
+	padding:18px 10px;
+	display: block;
+	height: 100px;
+}
+.note_list:hover{
+	background:@base_background;
+}
+//列表页 左侧 导航
+#not_nav_list{
+	background:white;
+	padding:2px;
+}
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus{
+	background:@base_background;
+	color:@base_deep_color;
+}
+.note_model{
+	background:@base_color;
+	height: 40px;
+	margin-top:2px;
+    margin-left: 0;
+    color:white;
+    padding:10px;
+}
+//列表页 内容
+.note_con{
+	background:white;
+	padding:2px;
+}
+.note_title{
+	background:@base_background;
+	border:1px solid darken(@base_background, 2%);
+	height: 40px;
+	color:@base_deep_color;
+	// font-size: 20px;
+	padding:8px;
+}
+.note_content{
+	padding:20px;
+}
+.note_content_content{
+	margin-top:30px;
+}
+hr{
+    background-color: #d4d4d4;
+    color: #d4d4d4;
+    height: 1px;
+    border: 0;
+    clear: both;
+}
+p{
+	font-size: 15px;
+	line-height: 1.8;
+}
+h3{
+	font-weight: 900;
+}
+.notelogwindow{
+	background: white;
+}
+.page-header{
+	border-bottom: 1px solid #ddd;
+	margin-top: 10px;
+	padding-bottom:0px;
+}
+
+.notelog{
+	line-height: 1.8;
+	font-size: @base_size;
+}
+.list-group-item{
+	border: 0px;
+	border-bottom: 1px solid #ddd;
+	padding: 0px;
+}
+.list-group-item.active, 
+.list-group-item.active:hover, 
+.list-group-item.active:focus{
+	color:#0fa899;
+	background-color:white;
+    border-color:white;
+}
+a.list-group-item:hover, 
+button.list-group-item:hover, 
+a.list-group-item:focus, 
+button.list-group-item:focus
+{
+	background-color:white;
+}
+.notelogwindow_fix{
+	position: fixed;
+    z-index: 2;
+    top: 70px;
+    min-width: 180px;
+}
+.notelogwindow{
+	border-left: 1px solid #eeeeee;
+}
