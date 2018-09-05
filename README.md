@@ -9,5 +9,5 @@
 - 前台地址 test.com/index.php
 
 不要隐藏index.php
-![image](https://github.com/dysir/jijian/image/admin.png)
-![image](https://github.com/dysir/jijian/image/prv.png)
+![image](https://github.com/dysir/jijian/blob/master/image/admin.png)
+![image](https://github.com/dysir/jijian/blob/master/image/prv.png)
